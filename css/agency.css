@@ -201,7 +201,7 @@ h1,h2,h3,h4,h5,h6
 header
 {
 	background-attachment: scroll;
-	background-image: url(../img/header-bg-custom.jpg);
+	background-image: url(../img/header-bg.jpg);
 	background-position: center center;
 	background-repeat: none;
 	background-size: cover;

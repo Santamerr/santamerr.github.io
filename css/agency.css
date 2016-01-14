@@ -9,7 +9,7 @@ body
 }
 .text-primary
 {
-	color: #fed136;
+	color: #4FC3F7;
 }
 p
 {
@@ -118,7 +118,7 @@ h1,h2,h3,h4,h5,h6
 }
 .navbar-default .navbar-brand
 {
-	color: #fed136;
+	color: #4FC3F7;
 	font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
 }
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active
@@ -131,7 +131,7 @@ h1,h2,h3,h4,h5,h6
 }
 .navbar-default .navbar-toggle
 {
-	background-color: #fed136;
+	background-color: #4FC3F7;
 	border-color: #fed136;
 }
 .navbar-default .navbar-toggle .icon-bar

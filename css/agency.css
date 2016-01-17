@@ -90,8 +90,9 @@ h1,h2,h3,h4,h5,h6
 .btn-xl
 {
 	background-color: #4FC3F7;
-	border-color: #4FC3F7;
-	border-radius: 3px;
+	border-color: #fff;
+	border-radius: 15px;
+    border-width: 4px;
 	color: #fff;
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 	font-size: 18px;
@@ -102,7 +103,7 @@ h1,h2,h3,h4,h5,h6
 .btn-xl:hover,.btn-xl:focus,.btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl
 {
 	background-color: #4FC3F7;
-	border-color: #4FC3F7;
+	border-color: #fff;
 	color: #fff;
 }
 .btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl

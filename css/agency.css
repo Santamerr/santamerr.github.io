@@ -93,8 +93,8 @@ h1,h2,h3,h4,h5,h6
 }
 .btn-xl:hover,.btn-xl:focus,.btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl
 {
-	background-color: #fec503;
-	border-color: #f6bf01;
+	background-color: #4FC3F7;
+	border-color: #4FC3F7;
 	color: #fff;
 }
 .btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl
@@ -103,13 +103,13 @@ h1,h2,h3,h4,h5,h6
 }
 .btn-xl.disabled,.btn-xl[disabled],fieldset[disabled] .btn-xl,.btn-xl.disabled:hover,.btn-xl[disabled]:hover,fieldset[disabled] .btn-xl:hover,.btn-xl.disabled:focus,.btn-xl[disabled]:focus,fieldset[disabled] .btn-xl:focus,.btn-xl.disabled:active,.btn-xl[disabled]:active,fieldset[disabled] .btn-xl:active,.btn-xl.disabled.active,.btn-xl[disabled].active,fieldset[disabled] .btn-xl.active
 {
-	background-color: #fed136;
-	border-color: #fed136;
+	background-color: #4FC3F7;
+	border-color: #4FC3F7;
 }
 .btn-xl .badge
 {
 	background-color: #fff;
-	color: #fed136;
+	color: #4FC3F7;
 }
 .navbar-default
 {

@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Latype Condensed';
+    src: url('../fonts/latype-condensed.eot');
+    src: url('../fonts/latype-condensed.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/latype-condensed.woff2') format('woff2'),
+    url('../fonts/latype-condensed.woff') format('woff'),
+    url('../fonts/latype-condensed.ttf') format('truetype');
+}
 body
 {
 	font-family: "Roboto Slab","Helvetica Neue",Helvetica,Arial,sans-serif;

@@ -208,11 +208,14 @@ h1,h2,h3,h4,h5,h6
 }
 header
 {
-	background-attachment: scroll;
+	/* THIS IS WHAT I TOOK OUT FOR BACKGROUND PHOTO
+    background-attachment: scroll;
 	background-image: url(../img/header-bg.jpg);
 	background-position: center center;
 	background-repeat: none;
 	background-size: cover;
+    */
+    background-color: #4FC3F7;
 	color: #fff;
 	moz-background-size: cover;
 	o-background-size: cover;
@@ -291,6 +294,10 @@ section h3.section-subheading
 	{
 		padding: 150px 0;
 	}
+}
+.mariasclass {
+    font-family: 'Latype Condensed';
+    font-size: 100px;
 }
 .service-heading
 {

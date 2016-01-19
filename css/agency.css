@@ -18,7 +18,7 @@ body
 }
 .text-primary
 {
-	color: #4FC3F7;
+	color: #039BE5;
 }
 p
 {
@@ -103,7 +103,7 @@ h1,h2,h3,h4,h5,h6
 }
 .btn-xl:hover,.btn-xl:focus,.btn-xl:active,.btn-xl.active,.open .dropdown-toggle.btn-xl
 {
-	background-color: #4FC3F7;
+	background-color: #039BE5;
 	border-color: #fff;
 	color: #fff;
 }
@@ -150,7 +150,7 @@ h1,h2,h3,h4,h5,h6
 }
 .navbar-default .navbar-toggle:hover,.navbar-default .navbar-toggle:focus
 {
-	background-color: #4FC3F7;
+	background-color: #039BE5;
 }
 .navbar-default .nav li a
 {

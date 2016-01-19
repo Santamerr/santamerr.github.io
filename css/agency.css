@@ -13,6 +13,7 @@ body
 }
 .text-muted
 {
+    font-family: "Arial, Helvetica, sans-serif"
 	color: #777;
 }
 .text-primary
@@ -34,7 +35,7 @@ a,a:hover,a:focus,a:active,a.active
 }
 a
 {
-	color: #4FC3F7;
+	color: #FFA726;
 }
 a:hover,a:focus,a:active,a.active
 {
@@ -60,7 +61,7 @@ h1,h2,h3,h4,h5,h6
 }
 .btn-primary
 {
-	background-color: #4FC3F7;
+	background-color: #43A047;
 	border-color: #fed136;
 	color: #fff;
 	font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -69,7 +70,7 @@ h1,h2,h3,h4,h5,h6
 }
 .btn-primary:hover,.btn-primary:focus,.btn-primary:active,.btn-primary.active,.open .dropdown-toggle.btn-primary
 {
-	background-color: #4FC3F7;
+	background-color: #43A047;
 	border-color: #f6bf01;
 	color: #fff;
 }
@@ -79,7 +80,7 @@ h1,h2,h3,h4,h5,h6
 }
 .btn-primary.disabled,.btn-primary[disabled],fieldset[disabled] .btn-primary,.btn-primary.disabled:hover,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary:hover,.btn-primary.disabled:focus,.btn-primary[disabled]:focus,fieldset[disabled] .btn-primary:focus,.btn-primary.disabled:active,.btn-primary[disabled]:active,fieldset[disabled] .btn-primary:active,.btn-primary.disabled.active,.btn-primary[disabled].active,fieldset[disabled] .btn-primary.active
 {
-	background-color: #4FC3F7;
+	background-color: #FFA726;
 	border-color: #fed136;
 }
 .btn-primary .badge
@@ -89,7 +90,7 @@ h1,h2,h3,h4,h5,h6
 }
 .btn-xl
 {
-	background-color: #4FC3F7;
+	background-color: #FFA726;
 	border-color: #fff;
 	border-radius: 15px;
     border-width: 4px;
@@ -112,13 +113,13 @@ h1,h2,h3,h4,h5,h6
 }
 .btn-xl.disabled,.btn-xl[disabled],fieldset[disabled] .btn-xl,.btn-xl.disabled:hover,.btn-xl[disabled]:hover,fieldset[disabled] .btn-xl:hover,.btn-xl.disabled:focus,.btn-xl[disabled]:focus,fieldset[disabled] .btn-xl:focus,.btn-xl.disabled:active,.btn-xl[disabled]:active,fieldset[disabled] .btn-xl:active,.btn-xl.disabled.active,.btn-xl[disabled].active,fieldset[disabled] .btn-xl.active
 {
-	background-color: #4FC3F7;
-	border-color: #4FC3F7;
+	background-color: #039BE5;
+	border-color: #039BE5;
 }
 .btn-xl .badge
 {
 	background-color: #fff;
-	color: #4FC3F7;
+	color: #039BE5;
 }
 .navbar-default
 {
@@ -127,8 +128,8 @@ h1,h2,h3,h4,h5,h6
 }
 .navbar-default .navbar-brand
 {
-	color: #4FC3F7;
-	font-family: "Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+	color: #FFA726;
+	font-family: "American Typewriter","Helvetica Neue",Helvetica,Arial,cursive;
 }
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active
 {
@@ -140,7 +141,7 @@ h1,h2,h3,h4,h5,h6
 }
 .navbar-default .navbar-toggle
 {
-	background-color: #4FC3F7;
+	background-color: #039BE5;
 	border-color: #fed136;
 }
 .navbar-default .navbar-toggle .icon-bar
@@ -166,13 +167,13 @@ h1,h2,h3,h4,h5,h6
 }
 .navbar-default .navbar-nav>.active>a
 {
-	background-color: #4FC3F7;
+	background-color: #FFA726;
 	border-radius: 0;
 	color: #fff;
 }
 .navbar-default .navbar-nav>.active>a:hover,.navbar-default .navbar-nav>.active>a:focus
 {
-	background-color: #4FC3F7;
+	background-color: #039BE5;
 	color: #fff;
 }
 @media (min-width:768px)
@@ -216,7 +217,7 @@ header
 	background-repeat: none;
 	background-size: cover;
     */
-    background-color: #4FC3F7;
+    background-color: #039BE5;
 	color: #fff;
 	moz-background-size: cover;
 	o-background-size: cover;
@@ -276,7 +277,8 @@ section
 }
 section h2.section-heading
 {
-	font-size: 40px;
+    font-family: 'Latype Condensed';
+	font-size: 70px;
 	margin-bottom: 15px;
 	margin-top: 0;
 }
@@ -300,10 +302,23 @@ section h3.section-subheading
     font-family: 'Latype Condensed';
     font-size: 100px;
 }
+.mariasclass2 {
+    font-family: 'Latype Condensed';
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+.mariasclass3 {
+    font-family: 'Latype Condensed';
+    font-size: 50px;
+    text-transform: none;
+    margin-bottom: 45px;
+}
 .service-heading
 {
-	margin: 15px 0;
+	font-family: 'Latype Condensed';
+    margin: 15px 0;
 	text-transform: none;
+    font-size: 50px;
 }
 #portfolio .portfolio-item
 {

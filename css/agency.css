@@ -35,7 +35,7 @@ a,a:hover,a:focus,a:active,a.active
 }
 a
 {
-	color: #FFA726;
+	color: #039BE5;
 }
 a:hover,a:focus,a:active,a.active
 {
@@ -80,7 +80,7 @@ h1,h2,h3,h4,h5,h6
 }
 .btn-primary.disabled,.btn-primary[disabled],fieldset[disabled] .btn-primary,.btn-primary.disabled:hover,.btn-primary[disabled]:hover,fieldset[disabled] .btn-primary:hover,.btn-primary.disabled:focus,.btn-primary[disabled]:focus,fieldset[disabled] .btn-primary:focus,.btn-primary.disabled:active,.btn-primary[disabled]:active,fieldset[disabled] .btn-primary:active,.btn-primary.disabled.active,.btn-primary[disabled].active,fieldset[disabled] .btn-primary.active
 {
-	background-color: #FFA726;
+	background-color: #039BE5;
 	border-color: #fed136;
 }
 .btn-primary .badge
@@ -90,7 +90,7 @@ h1,h2,h3,h4,h5,h6
 }
 .btn-xl
 {
-	background-color: #FFA726;
+	background-color: #039BE5;
 	border-color: #fff;
 	border-radius: 15px;
     border-width: 4px;
@@ -128,7 +128,7 @@ h1,h2,h3,h4,h5,h6
 }
 .navbar-default .navbar-brand
 {
-	color: #FFA726;
+	color: #fff;
 	font-family: "American Typewriter","Helvetica Neue",Helvetica,Arial,cursive;
 }
 .navbar-default .navbar-brand:hover,.navbar-default .navbar-brand:focus,.navbar-default .navbar-brand:active,.navbar-default .navbar-brand.active
@@ -141,7 +141,7 @@ h1,h2,h3,h4,h5,h6
 }
 .navbar-default .navbar-toggle
 {
-	background-color: #FFA726;
+	background-color: #039BE5;
 	border-color: #fed136;
 }
 .navbar-default .navbar-toggle .icon-bar
@@ -167,7 +167,7 @@ h1,h2,h3,h4,h5,h6
 }
 .navbar-default .navbar-nav>.active>a
 {
-	background-color: #FFA726;
+	background-color: #039BE5;
 	border-radius: 0;
 	color: #fff;
 }
@@ -180,7 +180,7 @@ h1,h2,h3,h4,h5,h6
 {
 	.navbar-default
 	{
-		background-color: transparent;
+		background-color: #7CB342;
 		border: 0;
 		moz-transition: padding .3s;
 		padding: 25px 0;
@@ -200,7 +200,7 @@ h1,h2,h3,h4,h5,h6
 	}
 	.navbar-default.navbar-shrink
 	{
-		background-color: #222;
+		background-color: #7CB342;
 		padding: 10px 0;
 	}
 	.navbar-default.navbar-shrink .navbar-brand
@@ -423,8 +423,7 @@ aside.clients img
 }
 section#contact
 {
-	background-color: #222;
-	background-image: url(../img/map-image.png);
+	background-color: #039BE5;
 	background-position: center;
 	background-repeat: no-repeat;
     background-size: cover;

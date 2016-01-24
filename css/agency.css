@@ -185,7 +185,7 @@ h1,h2,h3,h4,h5,h6
 {
 	.navbar-default
 	{
-		background-color: #7CB342;
+		background-color: #4CAF50;
 		border: 0;
 		moz-transition: padding .3s;
 		padding: 25px 0;
@@ -205,7 +205,7 @@ h1,h2,h3,h4,h5,h6
 	}
 	.navbar-default.navbar-shrink
 	{
-		background-color: #7CB342;
+		background-color: #4CAF50;
 		padding: 10px 0;
 	}
 	.navbar-default.navbar-shrink .navbar-brand
@@ -429,6 +429,7 @@ aside.clients img
 section#contact
 {
 	background-color: #039BE5;
+    background-image: url(../img/map-image.png); 
 	background-position: center;
 	background-repeat: no-repeat;
     background-size: cover;

@@ -570,6 +570,12 @@ ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a
 	margin-bottom: 30px;
 	margin-top: 0;
 }
+
+.eventDates{
+    list-style:none;
+    padding-left: 0;
+}
+
 .portfolio-modal .modal-content img
 {
 	margin-bottom: 30px;

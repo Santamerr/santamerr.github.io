@@ -575,6 +575,10 @@ ul.social-buttons li a:hover,ul.social-buttons li a:focus,ul.social-buttons li a
     list-style:none;
     padding-left: 0;
 }
+.febdates
+{
+    font-family: 'Latype Condensed';
+}
 
 .portfolio-modal .modal-content img
 {

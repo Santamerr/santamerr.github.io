@@ -41,13 +41,13 @@
         map = new GMaps({
             el: '#map',
             scrollwheel: false,
-            lat: -12.044333,
-            lng: -77.028333
+            lat: 43.435461,
+            lng: -80.425824
         });
 
         map.addMarker({
-            lat: -12.044333,
-            lng: -77.028333,
+            lat: -43.435461,
+            lng: -80.425824,
             title: 'Pertness',
             infoWindow: {
                 content: '<p><strong>Pertness</strong><br/> We are here</p>'

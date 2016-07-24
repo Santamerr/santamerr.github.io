@@ -28,7 +28,7 @@
         ], {duration: 3000, fade: 750});
 
         // Countdown
-		$('#countdown').countdown('2015/01/01', function(event) {	// your date here 
+		$('#countdown').countdown('2016/08/20', function(event) {	// your date here 
         	$(this).html(event.strftime(''
             	+ '<div><div>%D</div><i>Days</i></div>' 
             	+ '<div><div>%H</div><i>Hours</i></div>'

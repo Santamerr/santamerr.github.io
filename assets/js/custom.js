@@ -10,6 +10,8 @@
 
 	$(document).ready(function() {
 
+        $('.your-class').slick();
+
         // Animation scroll
 		$('a[href*=#]').bind('click', function(e) {
 			var anchor = $(this);

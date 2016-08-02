@@ -10,7 +10,7 @@
 
 	$(document).ready(function() {
 
-        $('.your-class').slick({
+        $('.carousel-spotlight').slick({
             infinite: true,
             autoplay: true,
             autoplaySpeed: 5000,

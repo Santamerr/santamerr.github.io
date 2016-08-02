@@ -11,9 +11,10 @@
 	$(document).ready(function() {
 
         $('.your-class').slick({
+            dots: true,
             infinite: true,
             autoplay: true,
-            autoplaySpeed: 5000,
+            autoplaySpeed: 3000,
             slidesToShow: 4,
             slidesToScroll: 4
         });

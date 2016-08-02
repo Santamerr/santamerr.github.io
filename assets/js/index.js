@@ -10,13 +10,14 @@
 
 	$(document).ready(function() {
 
-        $('.your-class').slick({
-            dots: true,
+        $('.carousel-spotlight').slick({
             infinite: true,
+            dots: true,
             autoplay: true,
             autoplaySpeed: 3000,
             slidesToShow: 4,
-            slidesToScroll: 4
+            slidesToScroll: 4,
+            arrows: true
         });
 
         // Animation scroll

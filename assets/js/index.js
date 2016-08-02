@@ -10,7 +10,9 @@
 
 	$(document).ready(function() {
 
-        $('.your-class').slick();
+        $('.your-class').slick({
+            infinite: true
+        });
 
         // Animation scroll
 		$('a[href*=#]').bind('click', function(e) {

@@ -11,7 +11,9 @@
 	$(document).ready(function() {
 
         $('.your-class').slick({
-            infinite: true
+            infinite: true,
+            autoplay: true,
+            autoplaySpeed: 5000
         });
 
         // Animation scroll

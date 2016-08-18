@@ -1,0 +1,23 @@
+{
+  "name": "Tobys List",
+  "homepage": "https://github.com/Santamerr/santamerr.github.io",
+  "authors": [
+    "Omas Abdullah <omas.abdullah@gmail.com>",
+    "Maria Santamaria <maria.santamaria@hotmail.com>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "slick-carousel": "^1.6.0",
+    "bootstrap": "^3.3.7"
+  }
+}

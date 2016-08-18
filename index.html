@@ -212,29 +212,29 @@
 
          <div class="row">
 
-            <form class="contact-form" role="form">
+            <form class="contact-form" name="sentMessage" method="POST" action="http://formspree.io/CHANGEME@EMAILADDRESS.COM" id="contactForm" role="form">
 
                <div class="col-md-6">
 
                   <div class="form-group">
                      <label class="sr-only" for="name-contact">Name</label>
-                     <input type="text" class="form-control input-lg" id="name-contact" placeholder="Name">
+                     <input type="text" class="form-control input-lg" id="name-contact" name="name" placeholder="Name">
                   </div>
 
                   <div class="form-group">
-                     <label class="sr-only" for="email-contact">Email address</label>
-                     <input type="email" class="form-control input-lg" id="email-contact" placeholder="E-mail">
+                     <label class="sr-only" for="email-contact" >Email address</label>
+                     <input type="email" class="form-control input-lg" name="_replyto" id="email-contact" placeholder="E-mail">
                   </div>
                      
                   <div class="form-group">
-                     <label class="sr-only" for="subject">Subject</label>
-                     <input type="text" class="form-control input-lg" id="subject" placeholder="Subject">
+                     <label class="sr-only" for="subject" >Subject</label>
+                     <input type="text" class="form-control input-lg" name="_subject" id="subject" placeholder="Subject">
                   </div>
 
                </div>
 
                <div class="col-md-6">
-                  <textarea class="form-control input-lg" rows="7" placeholder="Your message"></textarea>
+                  <textarea class="form-control input-lg" rows="7" name="message" placeholder="Your message"></textarea>
                </div>
 
                <div class="col-md-3 col-md-offset-9">

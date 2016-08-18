@@ -10,6 +10,16 @@
 
 	$(document).ready(function() {
 
+        $('.carousel-spotlight').slick({
+            infinite: true,
+            dots: true,
+            autoplay: true,
+            autoplaySpeed: 3000,
+            slidesToShow: 4,
+            slidesToScroll: 4,
+            arrows: true
+        });
+
         // Animation scroll
 		$('a[href*=#]').bind('click', function(e) {
 			var anchor = $(this);

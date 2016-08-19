@@ -28,7 +28,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <img src="assets/images/pawvector.png" alt="about our services">
+                    <img src="https://firebasestorage.googleapis.com/v0/b/tobys-list-ed1c7.appspot.com/o/pawvector.png?alt=media&token=ad8e9add-1901-414e-b2ba-8df45695e5af" alt="about our services">
                 </div>
                 <div class="col-md-8 col-md-offset-2">
                     <p>Our new site is almost ready for launch. In the meantime why not subscribe, and we'll tell you when it's done.
@@ -191,18 +191,24 @@
         <!-- /.container -->
     </div>
     <!-- /.content THIS IS THE RESCUE LIST SECTION -->
-    <!-- /.content THIS IS THE RESCUE LIST SECTION -->
     <div class="content content-inverse">
         <div class="container">
             <div class="row">
                 <div class="col-md-12 title">
                     <h2>Check out these local rescues!</h2>
                         <slick infinite=true autoplay=true speed=3000 slides-to-show=2 slides-to-scroll=2 arrows=true ng-if="rescues.length">
-                            <div ng-repeat="rescue in rescues"> {{rescue.website}} </div>
+                            <!--<div ng-repeat="rescue in rescues"> {{rescue.website}} </div>-->
 
+                            <div class="col-md-3 col-sm-6 hero-feature" ng-repeat="rescue in rescues">
+                                <div class="thumbnail">
+                                    <img src="http://placehold.it/800x500" width=800 height=500 alt="">
+                                    <div class="caption">
+                                        <h3>{{rescue.$id}}</h3>
+                                        <a href="{{rescue.website}}" class="btn btn-primary">Check them out!</a>
+                                    </div>
+                                </div>
+                            </div>
                         </slick>
-                        <!-- 
-                        <div href="http://spca.cambridgeweb.net/"><img src="assets/images/logos/cambridgehumanesociety.jpg" height = 300 width = 300 alt="about our services"> </div>-->
                     <!-- /.row -->
                 </div>
                 <!-- /.container -->
@@ -223,6 +229,7 @@
             </div>
             <!-- /.container -->
         </div>
+    </div>
         <!-- /.content -->
         <!-- Javascript files -->
         <script src="assets/js/jquery-1.11.0.min.js"></script>

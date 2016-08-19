@@ -197,8 +197,9 @@
             <div class="row">
                 <div class="col-md-12 title">
                     <h2>Check out these local rescues!</h2>
-                        <slick infinite=true dots=true autoplay=true speed=3000 slides-to-show=4 slides-to-scroll=4 arrows=true init-onload=true data="rescues">
-                            <div ng-repeat="rescue in rescues"> {{rescue.name}} </div>
+                        <slick infinite=true autoplay=true speed=3000 slides-to-show=2 slides-to-scroll=2 arrows=true ng-if="rescues.length">
+                            <div ng-repeat="rescue in rescues"> {{rescue.website}} </div>
+
                         </slick>
                         <!-- 
                         <div href="http://spca.cambridgeweb.net/"><img src="assets/images/logos/cambridgehumanesociety.jpg" height = 300 width = 300 alt="about our services"> </div>-->
@@ -236,9 +237,10 @@
         <script src="https://cdn.firebase.com/libs/angularfire/1.2.0/angularfire.min.js"></script>
         <script type="text/javascript" src="assets/js/index.js"></script>
         <script type="text/javascript" src="assets/js/index-angular.js"></script>
+
+        <!--AngularSlick-->
         <script type="text/javascript" src="bower_components/slick-carousel/slick/slick.js"></script>
         <script type="text/javascript" src="bower_components/angular-slick/dist/slick.js"></script>
-
         <link rel="stylesheet" type="text/css" href="bower_components/slick-carousel/slick/slick.css">
         <link rel="stylesheet" type="text/css" href="bower_components/slick-carousel/slick/slick-theme.css" />
         <script>

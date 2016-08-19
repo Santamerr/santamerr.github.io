@@ -19,23 +19,11 @@
     <link href="assets/css/animate.css" rel="stylesheet" media="screen">
     <!-- Custom styles CSS -->
     <link href="assets/css/style.css" rel="stylesheet" media="screen">
-    <!-- Bower -->
-    <!-- Slick carousel -->
-    <link rel="stylesheet" type="text/css" href="bower_components/slick-carousel/slick/slick.css">
-    <link rel="stylesheet" type="text/css" href="bower_components/slick-carousel/slick/slick-theme.css" />
     <!--Bootstrap-->
     <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" media="screen">
-    <!-- AngularJS -->
-    <!-- Firebase -->
 </head>
 
 <body ng-app="tobysList" ng-controller="mainController">
-    <!-- Preloader -->
-    <div id="preloader">
-        <div id="status">
-            <div class="status-mes">loading...</div>
-        </div>
-    </div>
     <div id="coming-soon" class="home">
         <div class="container">
             <div class="row">
@@ -209,8 +197,8 @@
             <div class="row">
                 <div class="col-md-12 title">
                     <h2>Check out these local rescues!</h2>
-                        <slick infinite=true dots=true autoplay=true speed=3000 slides-to-show=4 slides-to-scroll=4 arrows=true>
-                        
+                        <slick infinite=true dots=true autoplay=true speed=3000 slides-to-show=4 slides-to-scroll=4 arrows=true init-onload=true data="rescues">
+                            <div ng-repeat="rescue in rescues"> {{rescue.name}} </div>
                         </slick>
                         <!-- 
                         <div href="http://spca.cambridgeweb.net/"><img src="assets/images/logos/cambridgehumanesociety.jpg" height = 300 width = 300 alt="about our services"> </div>-->
@@ -249,7 +237,10 @@
         <script type="text/javascript" src="assets/js/index.js"></script>
         <script type="text/javascript" src="assets/js/index-angular.js"></script>
         <script type="text/javascript" src="bower_components/slick-carousel/slick/slick.js"></script>
-        <script src="bower_components/angular-slick/dist/slick.js"></script>
+        <script type="text/javascript" src="bower_components/angular-slick/dist/slick.js"></script>
+
+        <link rel="stylesheet" type="text/css" href="bower_components/slick-carousel/slick/slick.css">
+        <link rel="stylesheet" type="text/css" href="bower_components/slick-carousel/slick/slick-theme.css" />
         <script>
         (function(i, s, o, g, r, a, m) {
             i['GoogleAnalyticsObject'] = r;
@@ -266,7 +257,5 @@
         ga('create', 'UA-72463077-1', 'auto');
         ga('send', 'pageview');
         </script>
-        </script>
 </body>
-
 </html>

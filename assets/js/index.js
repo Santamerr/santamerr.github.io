@@ -1,13 +1,4 @@
 (function($){
-   	
-    // Preloader 	 
-   	$(window).load(function() { 
-       	$('#status').fadeOut();
-        $('#preloader').delay(350).fadeOut('slow'); 
-        $('body').delay(350).css({'overflow':'visible'});
-        $('#countdown').addClass('animated bounceInDown');  
-    }); 
-
 	$(document).ready(function() {
 
         // $('.carousel-spotlight').slick({
@@ -19,7 +10,6 @@
         //     slidesToScroll: 4,
         //     arrows: true
         // });
-
 
         // Background slideshow
         $.backstretch([

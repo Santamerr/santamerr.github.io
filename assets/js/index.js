@@ -1,16 +1,6 @@
 (function($){
 	$(document).ready(function() {
 
-        // $('.carousel-spotlight').slick({
-        //     infinite: true,
-        //     dots: true,
-        //     autoplay: true,
-        //     autoplaySpeed: 3000,
-        //     slidesToShow: 4,
-        //     slidesToScroll: 4,
-        //     arrows: true
-        // });
-
         // Background slideshow
         $.backstretch([
             'assets/images/bg3.jpg',
@@ -24,16 +14,6 @@
             'assets/images/bg12.jpg',
             'assets/images/bg1.jpg'
         ], {duration: 3000, fade: 750});
-
-        // Countdown
-		$('#countdown').countdown('2016/08/20', function(event) {	// your date here 
-        	$(this).html(event.strftime(''
-            	+ '<div><div>%D</div><i>Days</i></div>' 
-            	+ '<div><div>%H</div><i>Hours</i></div>'
-            	+ '<div><div>%M</div><i>Minutes</i></div>'
-            	+ '<div><div>%S</div><i>Seconds</i></div>'
-        	));
-    	});
 
         // Google Map 
         map = new GMaps({

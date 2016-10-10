@@ -222,32 +222,6 @@ h3 { font-size: 28px; }
 h4 { font-size: 22px; }
 
 /* ---------------------------------------------- /*
- * Countdown
-/* ---------------------------------------------- */
-
-#countdown {
-    margin: 60px 0 50px;
-    line-height: 1;
-}
-
-#countdown > div {
-    display: inline-block;
-    margin: 0 35px 15px;
-}
-
-#countdown > div > div {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-    padding: 0 5px;
-    margin-bottom: 10px;
-    font-size: 110px; 
-}
-
-#countdown > div > i {
-    font-style: normal;
-    text-transform: uppercase;
-}
-
-/* ---------------------------------------------- /*
  * Media
 /* ---------------------------------------------- */
 
@@ -269,21 +243,5 @@ h4 { font-size: 22px; }
     h3 { font-size: 22px; }
 
     h4 { font-size: 18px; }
-
-}
-
-@media (max-width: 479px) {
-
-    #countdown > div {
-        margin: 0 15px 15px;
-    }
-
-}
-
-@media (max-width: 320px) {
-
-    #countdown > div {
-        margin: 0 0 15px;
-    }
 
 }
